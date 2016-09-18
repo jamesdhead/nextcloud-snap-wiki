@@ -197,19 +197,17 @@ Once done, you can install the snap typing:
 $ sudo snap install awesome-app_0.1_amd64.snap --force-dangerous
 ```
 
-If you've uploaded your snap to the snap store, you can just run:
+If you've uploaded your snap to the snap store and signed it, you can just run:
 
 ```
-$ sudo snappy install foo
+$ sudo snap install foo
 ```
 
-Now do a second login to your testing device - so make sure you're not in the `classic shell` we were using to create the snaps.
-
-Just running foo.foo will work. Note that the first time, it creates the writable folders it needs, now and in the future and does that with the permissions of the user you first run it with. If you happen to use `sudo`, for example, the next run will also need root capabilities! You can delete `/home/ubuntu/snaps/foo.sideload` (it will name this folder in the error) and run the app again. Or run `sudo chown -R ubuntu:ubuntu /home/ubuntu/snaps` to give your user the correct rights, which is what you'll need to do if the very first app you ran was executed with sudo - making the folder for the snaps itself requiring root rights.
+At this stage, you can call `awesome-app.foo` from the command line and it will execute like a normal command. Note that the first time, it creates the writable folders it needs, now and in the future and does that with the permissions of the user you first run it with. If you happen to use `sudo`, for example, the next run will also need root capabilities! You can delete the symlink and run the app again.
 
 At this point, you've created and installed your first snap and the basic principles should be clear! Let's do one more 'advanced' thing before we wrap up.
 
-If you now look in `/snaps/bin` you find the binary for your snap and you can execute it. This uses the ubuntu container launcher to run your binary and it contains environment variables you can modify, as (super) user.
+If you now look in `/snap/bin` you find the binary for your snap and you can execute it. This uses the ubuntu container launcher to run your binary and it contains environment variables you can modify, as (super) user.
 
 ### Adding extra files
 
@@ -223,7 +221,7 @@ If you now look in `/snaps/bin` you find the binary for your snap and you can ex
 
 Adding the above to your snapcraft.yaml will let you add arbitrary configuration files! Note that the first `config:` is arbitrary - you can name the sections however you want. The config files can be in the same folder as the yaml (in this case), or in a folder under it. On the right side, `config/1` tells snapcraft to put the file in that folder, relative to the root of the snap.
 
-You might want to run `snapcraft clean` before building a new snap, of course. Note that after installing it, there will be two snaps in `/snaps/foo` and the symlink to the command in /snaps/bin will still be the old one.
+You might want to run `snapcraft clean` before building a new snap, of course. Note that after installing it, there will be two snaps in `/snaps/foo` and the symlink to the command in `/snap/bin` will still be the old one.
 
 Run `snapcraft help plugins` for a list of plugins and `snapcraft help make` to get info on a specific plugin and how to use it.
 
