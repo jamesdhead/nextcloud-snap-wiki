@@ -241,4 +241,4 @@ Simply run `snapcraft clean foo` followed by `snapcraft` in order to build a new
 
 ## Time to get to work
 
-Now you've learned the basics of the OS behind the Nextcloud box: Ubuntu Snappy. You can go in and [modify your ownCloud](https://github.com/nextcloud/nextcloud-snap/wiki/Building-your-first-Nextcloud-snap); more importantly, you know how we make our snaps and how you could contribute to that! 
+Now you've learned the basics of the OS behind the Nextcloud box: Ubuntu Snappy. You can go in and [modify your Nextcloud](https://github.com/nextcloud/nextcloud-snap/wiki/Building-your-first-Nextcloud-snap); more importantly, you know how we make our snaps and how you could contribute to that! 
