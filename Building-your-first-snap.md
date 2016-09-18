@@ -211,6 +211,15 @@ If you now look in `/snap/bin` you find the binary for your snap and you can exe
 
 ### Adding extra files
 
+Here is how you could ship some configuration files with your Snap.
+
+First create the files
+
+```
+# touch config1 config2
+```
+
+And use the copy plugin to copy them over from your work directory to the Snap itself.
 ```
 	config:
 		plugin: copy
@@ -219,9 +228,15 @@ If you now look in `/snap/bin` you find the binary for your snap and you can exe
 			config2: config/2
 ```
 
-Adding the above to your snapcraft.yaml will let you add arbitrary configuration files! Note that the first `config:` is arbitrary - you can name the sections however you want. The config files can be in the same folder as the yaml (in this case), or in a folder under it. On the right side, `config/1` tells snapcraft to put the file in that folder, relative to the root of the snap.
+Note that you could have named the part something other than `config`.
 
-You might want to run `snapcraft clean` before building a new snap, of course. Note that after installing it, there will be two snaps in `/snaps/foo` and the symlink to the command in `/snap/bin` will still be the old one.
+Also, the config files can be in the same folder as the yaml (like we just did), or in a folder under it.
+
+On the right side, `config/1` tells snapcraft to put the file in that folder, relative to the root of the Snap.
+
+You might want to run `snapcraft clean` before building a new snap, of course.
+
+Note that after installing it, there will be two snap folders in `/snap/awesome-app`, one for each version and the symlink to the command in `/snap/bin` will still be the old one.
 
 Run `snapcraft help plugins` for a list of plugins and `snapcraft help make` to get info on a specific plugin and how to use it.
 
