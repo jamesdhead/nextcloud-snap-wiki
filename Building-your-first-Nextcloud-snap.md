@@ -24,7 +24,7 @@ Retrieve the source code
 ```
 $ mkdir snaps
 $ cd snaps
-$ git clone -b master https://github.com/nextcloud/nextcloud-snap.git
+$ git clone https://github.com/nextcloud/nextcloud-snap.git
 ```
 
 Create the snap
