@@ -41,3 +41,15 @@ Do not strip libtool's `.la` files from the snap
 --
 
 **Always** clean (most) parts **before** switching branch
+
+--
+
+In classic mode, if you get this error message:
+
+> sudo: no tty present and no askpass program specified
+
+Exit Classic mode and type this
+
+`sudo mount --bind /dev/pts /writable/classic/dev/pts`
+
+You can now go back to Classic mode
