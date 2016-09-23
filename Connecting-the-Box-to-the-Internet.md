@@ -1,15 +1,25 @@
 # 1. Point your domain to your network
 
 1. Register for a service which redirects a domain name to your home network
-1. Open port 80 in your firewall
-1. Forward port 80 on your router to the IP used by your Box
+1. Open port 443 in your firewall
+1. Forward port 443 on your router to the IP used by your Box
 
 # 2. Connect to the Box
 
-Use Putty on Window or your Linux shell.
-Use the password/login ubuntu/ubuntu
+1. Use Putty on Window or your Linux shell and connect to your Box's IP or internal hostname
+1. Use the password/login ubuntu/ubuntu
 
 # 3. Add your external domain to Nextcloud
 
 `# sudo nextcloud.occ config:system:set trusted_domains 2
 --value=your.domain`
+
+# 4. Enable HTTPS
+
+Test to see if you can install a Let's Encrypt SSL certificate
+
+`$ sudo nextcloud.enable-https -d`
+
+If everything went well, then install the certificate
+
+`$ sudo nextcloud.enable-https`
