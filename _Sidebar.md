@@ -2,6 +2,7 @@
 
 * Box users
 	* [Connecting the Box to the Internet](Connecting-the-Box-to-the-Internet)
+	* [How to backup your SD card](How-to-backup-your-SD-card)
 
 * Snap developers
 	* [Setting up a dev environment](Creating-a-Snappy-development-environment)
