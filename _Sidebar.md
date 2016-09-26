@@ -1,7 +1,7 @@
 [[Home]]
 
 * Box users
-	* [Connecting the Box to the Internet](Connecting-the-Box-to-the-Internet)
+	* [Connecting the Nextcloud Box to the Internet](Connecting-the-Nextcloud-Box-to-the-Internet)
 	* [How to backup your SD card](How-to-backup-your-SD-card)
 
 * Snap developers
