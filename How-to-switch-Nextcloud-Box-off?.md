@@ -1,1 +1,0 @@
-Is there a way to switch Nextcloud off (shutdown)? 
