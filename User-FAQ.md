@@ -18,7 +18,6 @@ Unfortunately, you then don't know when the process has completed unless the dev
 ----
 
 **Q: Is there a "sleep mode"?**
-The hard disk is constantly flashing and there is a bit of sound. Is it planned/possible to have a kind of sleep/wakeup mode? 
 
 A: The hard drive has several sleep modes and spins down automatically after a few hours, but as long as there is some activity, from logs per example, then it won't be able to go to sleep. 
 
