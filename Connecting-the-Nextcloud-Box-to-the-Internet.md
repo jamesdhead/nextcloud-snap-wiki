@@ -14,6 +14,8 @@
 `# sudo nextcloud.occ config:system:set trusted_domains 2
 --value=your.domain`
 
+*Note: replace "your.domain" with the domain name registered at step 1*
+
 # 4. Enable HTTPS
 
 Test to see if you can install a Let's Encrypt SSL certificate
