@@ -3,7 +3,7 @@
 * Nextcloud Box users
 	* [Connecting the Nextcloud Box to the Internet](Connecting-the-Nextcloud-Box-to-the-Internet)
 	* [How to backup your SD card](How-to-backup-your-SD-card)
-	* [Enabling HTTPS (SSLS, TLS](Enabling-HTTPS-(SSLS,-TLS)
+	* [Enabling HTTPS (SSLS, TLS)](Enabling-HTTPS-(SSLS,-TLS))
 	* [User FAQ](User-FAQ)
 	* [Included CLI utilities](Included-CLI-utilities)
 	* [Finding files](Finding-files)
