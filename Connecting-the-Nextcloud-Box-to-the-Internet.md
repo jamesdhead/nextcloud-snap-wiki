@@ -6,7 +6,7 @@
 
 # 2. Connect to the Box
 
-https://help.nextcloud.com/t/a-post-in-german-english-nextcloud-developer-needed-requires-staff-attention/3640/1
+Follow the instructions at: [How to connect to the Nextcloud Box](How-to-connect-to-the-Nextcloud-Box)
 
 # 3. Add your external domain to Nextcloud
 
