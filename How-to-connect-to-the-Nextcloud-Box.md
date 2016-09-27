@@ -16,7 +16,7 @@ Use the IP address next to it as the URL to use to connect to the Box
 
 ## 2. Connect to the Box
 
-1. Use Putty on Window or your Linux shell and connect to your Box's IP or internal hostname
+1. Use [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/) on Window or your Linux command line and open an SSH session using your Box's IP or internal hostname
 1. Use the password/login ubuntu/ubuntu
 
 ## 3. Change your password
