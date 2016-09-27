@@ -1,17 +1,8 @@
 # 1. Connect to the Box
 
-1. Use Putty on Window or your Linux shell and connect to your Box's IP or internal hostname
-1. Use the password/login ubuntu/ubuntu
+Follow the instructions at: [How to connect to the Nextcloud Box](How-to-connect-to-the-Nextcloud-Box)
 
-# 2. Change your password
-
-If you haven't done so already, you should change your SSH password
-
-`$ passwd`
-
-*Note: type your new password twice and make sure to remember it or you will lose access to the Box!*
-
-# 3. Enable HTTPS
+# 2. Enable HTTPS
 
 Test to see if you can install a Let's Encrypt SSL certificate
 
