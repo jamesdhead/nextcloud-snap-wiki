@@ -6,25 +6,16 @@
 
 # 2. Connect to the Box
 
-1. Use Putty on Window or your Linux shell and connect to your Box's IP or internal hostname
-1. Use the password/login ubuntu/ubuntu
+https://help.nextcloud.com/t/a-post-in-german-english-nextcloud-developer-needed-requires-staff-attention/3640/1
 
-# 3. Change your password
-
-If you haven't done so already, you should change your SSH password
-
-`$ passwd`
-
-*Note: type your new password twice and make sure to remember it or you will lose access to the Box!*
-
-# 4. Add your external domain to Nextcloud
+# 3. Add your external domain to Nextcloud
 
 `# sudo nextcloud.occ config:system:set trusted_domains 2
 --value=your.domain`
 
 *Note: replace "your.domain" with the domain name registered at step 1*
 
-# 5. Enable HTTPS
+# 4. Enable HTTPS
 
 Test to see if you can install a Let's Encrypt SSL certificate
 
