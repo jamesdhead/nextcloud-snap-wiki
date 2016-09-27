@@ -1,6 +1,7 @@
 [[Home]]
 
 * Nextcloud Box users
+	* [How to connect to the Nextcloud Box](How-to-connect-to-the-Nextcloud-Box)
 	* [Connecting the Nextcloud Box to the Internet](Connecting-the-Nextcloud-Box-to-the-Internet)
 	* [How to backup your SD card](How-to-backup-your-SD-card)
 	* [Enabling HTTPS (SSLS, TLS)](Enabling-HTTPS-(SSLS,-TLS))
