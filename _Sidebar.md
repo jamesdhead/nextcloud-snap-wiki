@@ -5,6 +5,7 @@
 	* [Connecting the Nextcloud Box to the Internet](Connecting-the-Nextcloud-Box-to-the-Internet)
 	* [How to backup your SD card](How-to-backup-your-SD-card)
 	* [Enabling HTTPS (SSLS, TLS)](Enabling-HTTPS-(SSLS,-TLS))
+	* [How to manage your snaps](How-to-manage-your-snaps)
 	* [User FAQ](User-FAQ)
 	* [Included CLI utilities](Included-CLI-utilities)
 	* [Finding files](Finding-files)
