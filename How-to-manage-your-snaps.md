@@ -1,4 +1,4 @@
-# Via the user interface
+# Via the web interface
 
 The Nextcloud Box comes with a built-in Snap manager which allows users to add and remove Snaps. We will integrate this interface with Nextcloud in the future but for now, you can access it by going to:
 
@@ -8,10 +8,11 @@ The Nextcloud Box comes with a built-in Snap manager which allows users to add a
 
 **Warning: Not all the Snaps you see have been designed for the Nextcloud Box**
 
-## Recommendations
+## Problems
 
-* spreed-webrtc
-* Rocket Chat
+If you can't access the web interface, follow the steps below to connect to the Box via SSH and type:
+
+`$ sudo snap install snapweb --beta`
 
 # Via the command line
 
@@ -45,3 +46,10 @@ Typically, you would do something like:
 but sometimes, a Snap cannot be confined and requires a special switch to be installed:
 
 `$ sudo snap install transmissionbt --beta --devmode`
+
+## Recommended Snaps
+
+* nextcloud
+* spreed-webrtc
+* Rocket Chat
+* transmissionbt (beta, devmode)
