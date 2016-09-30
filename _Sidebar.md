@@ -11,6 +11,7 @@
 	* [Finding files](Finding-files)
 
 * Nextcloud Snap developers
+	* [Release strategy](Release-strategy)
 	* [Contributing](Contributing)
 	* [Setting up a dev environment](Creating-a-Snappy-development-environment)
 	* [Building your first snap](Building-your-first-snap)
