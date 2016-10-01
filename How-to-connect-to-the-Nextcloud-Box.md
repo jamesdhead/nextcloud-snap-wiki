@@ -1,8 +1,10 @@
+By default, the Box can be reached easily via your browser on the local network, see the inlay which came with your Box for the URL. But if you want to log in through ssh, follow the instructions below.
+
 ## 1. Find the Box
 
 You can first try to use the hostname defined in the Box, which is:
 
-`ubuntu-standard.local` or `ubuntu-standard.localdomain`
+`ubuntu-standard.local` or `ubuntu-standard.localdomain` or `nextcloud.local` (see the inlay which came with your Box)
 
 If that doesn't work, you can open a command prompt in your favourite OS and type:
 
