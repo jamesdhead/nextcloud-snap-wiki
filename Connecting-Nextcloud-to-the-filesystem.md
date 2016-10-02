@@ -12,6 +12,7 @@ You can now connect Nextcloud to other areas of the filesystem. To do so, you ne
 1. Restart the service
 	```bash
 	$ sudo systemctl restart snap.nextcloud.apache
+	$ sudo systemctl restart snap.nextcloud.php-fpm
 	```
 
 1. Go to the internal app store in the Web GUI of Nextcloud
