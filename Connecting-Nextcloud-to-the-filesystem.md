@@ -25,7 +25,7 @@ You can now connect Nextcloud to other areas of the filesystem. To do so, you ne
 
 1. Type in a folder name and select "Local"
 
-1. In the "Configuration" field, type /media
+1. In the "Configuration" field, type the **exact** location of the folder you want to access, per example `/media/external-3TB`. **You do not have access to the top folder (`/media`)**
 
 1. There should be a green dot on the left of that row
 
