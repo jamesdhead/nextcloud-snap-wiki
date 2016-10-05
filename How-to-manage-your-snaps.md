@@ -1,18 +1,35 @@
 # Via the web interface
 
-The Nextcloud Box comes with a built-in Snap manager which allows users to add and remove Snaps. We will integrate this interface with Nextcloud in the future but for now, you can access it by going to:
+The Nextcloud Box comes with a built-in Snap manager which allows users to add and remove Snaps. We will integrate this interface with Nextcloud in the future but for now, you can access it by following these steps:
 
-`http:<your box's IP or hostname>:4200`
+## Install the store
 
-*Note: That's the URL you access the box with and port 4200*
+*Note: This will not be required in the future*
+
+If you can't access the web interface, it could be because the store has not been enabled yet. [Follow these steps]](How-to-connect-to-the-Nextcloud-Box) to connect to the Box via SSH and type:
+
+`$ sudo snap install snapweb --beta`
+
+# Adding the store to Nextcloud
+
+1. In nextcloud, as an admin, click on the apps menu and then select the big plus sign which says "apps"
+1. In the left column, click on "Not enabled"
+1. At the top, click on the search field and select "External Sites"
+1. Enable the app
+1. Go to the admin section
+1. In the left column, click on "External Sites"
+1. In the "Name" field, type "Ubuntu store"
+1. In the URL field, type "http://localhost:4200"
+1. Refresh the page
+1. Click on the apps menu and you'll see your new app store icon
 
 **Warning: Not all the Snaps you see have been designed for the Nextcloud Box**
 
-## Problems
+**This doesn't work if you've enabled SSL for your Nextcloud. If you did follow the instructions below**
 
-If you can't access the web interface, follow the steps below to connect to the Box via SSH and type:
+Connect to the store at `http:<your box's IP or hostname>:4200`
 
-`$ sudo snap install snapweb --beta`
+*Note: That's the URL you access the box with and port 4200*
 
 # Via the command line
 
