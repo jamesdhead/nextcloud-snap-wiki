@@ -6,7 +6,9 @@ The Nextcloud Box comes with a built-in Snap manager which allows users to add a
 
 *Note: This will not be required in the future*
 
-If you can't access the web interface, it could be because the store has not been enabled yet. [Follow these steps](How-to-connect-to-the-Nextcloud-Box) to connect to the Box via SSH and type:
+If you can't access the web interface, it could be because the store has not been enabled yet. 
+
+[Follow these steps](How-to-connect-to-the-Nextcloud-Box) to connect to the Box via SSH and type:
 
 `$ sudo snap install snapweb --beta`
 
