@@ -10,6 +10,7 @@
 	* [User FAQ](User-FAQ)
 	* [Included CLI utilities](Included-CLI-utilities)
 	* [Finding files](Finding-files)
+	* [How to restart from scratch](How-to-restart-from-scratch)
 
 * Nextcloud Snap developers
 	* [Release strategy](Release-strategy)
