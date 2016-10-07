@@ -1,10 +1,16 @@
-The world of Snappy is a brave new world - a very different environment to work in for a package or image developer. To help make it easier to navigate the Snappy world, this article provides a basic introduction (and links to more) as well as a walk-through of the process of building a Snap.
+The world of Ubuntu Core and `snapd` is a brave new world - a very different environment to work in for a package or image developer. To help make it easier to navigate the snap world, this article provides a basic introduction (and links to more) as well as a walk-through of the process of building a snap.
 
 In order to be able to build some snaps, please begin by [setting up a development environment](https://github.com/nextcloud/nextcloud-snap/wiki/Creating-a-Snappy-development-environment)
 
 ## The basics
 
-Snappy Ubuntu Core provides a base OS on which applications (snaps) are mounted as read-only images. A snap can not depend on other snaps so each contains all it needs beyond the base OS and is completely isolated from it. That is, in simple terms: if you ssh into a system running a Nextcloud snap (which comes with PHP, Apache and MySQL), running the php command will return a 'command not found'! Neither could the Nextcloud instance modify any of its own files, except those specifically put in a writable area. When upgrading, a new snap just replaces the old and hooks into the writable area of the old one. Upgrades are thus atomic and can be rolled back easily in case of problems. If you have multiple server snaps running, say one with Nextcloud and one with Drupal, on one system, you will have two Apache's, two mysql's and so on. Ubuntu Snappy uses a variety of clever tricks to keep the overhead under control, including automatic data de-duplication and memory sharing. Please visit the Ubuntu website to get the [big picture on Snappy](https://developer.ubuntu.com/en/snappy/).
+Ubuntu Core provides a base OS on which applications (snaps) are mounted as read-only images. A snap can not depend on other snaps so each contains all it needs beyond the base OS and is completely isolated from it. That is, in simple terms: if you ssh into a system running a Nextcloud snap (which comes with PHP, Apache and MySQL), running the php command will return a 'command not found'! Neither could the Nextcloud instance modify any of its own files, except those specifically put in a writable area. 
+
+When upgrading, a new snap just replaces the old and hooks into the writable area of the old one. Upgrades are thus atomic and can be rolled back easily in case of problems. If you have multiple server snaps running, say one with Nextcloud and one with Drupal, on one system, you will have two Apache's, two MySQL's and so on. `snapd` uses a variety of clever tricks to keep the overhead under control, including automatic data de-duplication and memory sharing. 
+
+Please visit the Ubuntu website to get the [big picture on Snappy](https://developer.ubuntu.com/en/snappy/).
+
+### Skills required
 
 Snaps are a great way to deploy and manage software, but you will need to be familiar with the following technologies:
 
