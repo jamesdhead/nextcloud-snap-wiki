@@ -11,6 +11,7 @@
 	* [Included CLI utilities](Included-CLI-utilities)
 	* [Finding files](Finding-files)
 	* [How to restart from scratch](How-to-restart-from-scratch)
+	* [Advanced configurations](Advanced-configurations)
 
 * Nextcloud Snap developers
 	* [Release strategy](Release-strategy)
