@@ -1,7 +1,7 @@
 [[Home]]
 
 * Nextcloud Box users
-	* [First usage of the Nextcloud Box](First-usage-of-the-Box)
+	* [Getting started](Getting-started)
 	* [How to connect to the Nextcloud Box](How-to-connect-to-the-Nextcloud-Box)
 	* [Connecting the Nextcloud Box to the Internet](Connecting-the-Nextcloud-Box-to-the-Internet)
 	* [How to backup your SD card](How-to-backup-your-SD-card)
