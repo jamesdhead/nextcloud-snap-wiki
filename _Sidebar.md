@@ -7,11 +7,11 @@
 	* [How to backup your SD card](How-to-backup-your-SD-card)
 	* [Enabling HTTPS (SSLS, TLS)](Enabling-HTTPS-(SSLS,-TLS))
 	* [How to manage your snaps](How-to-manage-your-snaps)
-	* [User FAQ](User-FAQ)
 	* [Included CLI utilities](Included-CLI-utilities)
 	* [Finding files](Finding-files)
 	* [How to restart from scratch](How-to-restart-from-scratch)
 	* [Advanced configurations](Advanced-configurations)
+	* [**User FAQ**](User-FAQ)
 
 * Nextcloud Snap developers
 	* [Release strategy](Release-strategy)
@@ -21,4 +21,4 @@
 	* [Building your first Nextcloud snap](Building-your-first-Nextcloud-snap)
 	* [Tips and pitfalls](Tips-and-pitfalls)
 	* [Developing using Windows](Developing-using-Windows)
-	* [Developer FAQ](Developer-FAQ)
+	* [**Developer FAQ**](Developer-FAQ)
