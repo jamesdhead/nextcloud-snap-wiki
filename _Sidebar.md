@@ -21,3 +21,4 @@
 	* [Building your first Nextcloud snap](Building-your-first-Nextcloud-snap)
 	* [Tips and pitfalls](Tips-and-pitfalls)
 	* [Developing using Windows](Developing-using-Windows)
+	* [Developer FAQ](Developer-FAQ)
