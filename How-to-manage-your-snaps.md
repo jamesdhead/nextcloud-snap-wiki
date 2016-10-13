@@ -60,7 +60,7 @@ Once you've found what you were looking for, install it
 
 # Beta Snaps
 
-Unfortunately, beta Snaps are not shown in the GUI and cannot be found via the `find` command, so the best thing to do is to follow our Twitter account @nextcloudbox to hear about new and interesting snaps in development and then to install them via the command line by following the recommendations of the Snap builder.
+Unfortunately, beta Snaps are not shown in the GUI and cannot be found via the `find` command, so the best thing to do is to follow our Twitter account [@nextcloudbox](https://twitter.com/nextcloudbox) to hear about new and interesting snaps in development and then to install them via the command line by following the recommendations of the Snap builder.
 
 Typically, you would do something like:
 
