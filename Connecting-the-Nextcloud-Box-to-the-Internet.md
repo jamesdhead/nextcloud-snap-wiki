@@ -1,8 +1,8 @@
 # 1. Point your domain to your network
 
 1. Register for a service which redirects a domain name to your home network
-1. Open port 443 in your firewall
-1. Forward port 443 on your router to the IP used by your Box
+1. Open both port 80 and port 443 in your firewall
+1. Forward both ports on your router to the IP used by your Box
 
 # 2. Connect to the Box
 
