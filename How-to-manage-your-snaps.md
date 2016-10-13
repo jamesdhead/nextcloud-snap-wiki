@@ -31,7 +31,7 @@ If you can't access the web interface, it could be because the store has not bee
 
 ## Alternative
 
-The snap store doesn't support SSL, so if you've enabled SSL for Nextcloud, you'll need to use the snapweb URL directly.
+The snap store doesn't support SSL, so if you've enabled SSL for Nextcloud, you'll need to access snapweb using its own non-secure URL and cannot integrate it into Nextcloud.
  
 Connect to the store at `http:<your box's IP or hostname>:4200`
 
