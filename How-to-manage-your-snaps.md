@@ -12,7 +12,7 @@ If you can't access the web interface, it could be because the store has not bee
 
 `$ sudo snap install snapweb --beta`
 
-# Adding the store to Nextcloud
+## Adding the store to Nextcloud
 
 1. In nextcloud, as an admin, click on the apps menu and then select the big plus sign which says "apps"
 1. In the left column, click on "Not enabled"
@@ -27,8 +27,12 @@ If you can't access the web interface, it could be because the store has not bee
 
 **Warning: Not all the Snaps you see have been designed for the Nextcloud Box**
 
-**This doesn't work if you've enabled SSL for your Nextcloud. If you did follow the instructions below**
+**This currently doesn't work if you've enabled SSL for your Nextcloud**
 
+## Alternative
+
+The snap store doesn't support SSL, so if you've enabled SSL for Nextcloud, you'll need to use the snapweb URL directly.
+ 
 Connect to the store at `http:<your box's IP or hostname>:4200`
 
 *Note: That's the URL you access the box with and port 4200*
