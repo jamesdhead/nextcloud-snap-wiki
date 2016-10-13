@@ -1,8 +1,20 @@
 # Welcome
 
-This wiki is about providing help for both, users of the [Nextcloud Box](https://nextcloud.com/box), and developers of the Nextcloud snap.
+This documentaton is about providing help for both, users of the [Nextcloud Box](https://nextcloud.com/box), and developers of the Nextcloud snap.
 
 A snap is a package which contains a confined application running on the snapd platform which is available for many Linux distributions. For more information, please visit: http://snapcraft.io
+
+## Current issues
+
+Unfortunately, a broken OS component was pushed to the Box at the end of September. Since then a fix has been developed, but one of the component won't be automatically updated and **ALL** users are required to use a terminal app to fix the problem. This will be fixed in the next image which is going to be released to the manufacturer soon.
+
+### Windows
+
+1. [Connect to the Box](https://github.com/nextcloud/nextcloud-snap/wiki/How-to-connect-to-the-Nextcloud-Box)
+1. Type `sudo apt update && sudo apt dist-upgrade` and press "Enter"
+1. Press the "y" key to accept the proposed changes
+
+*Note: You will be asked for a password. Type in the password you used for step 1*
 
 ## Users
 
