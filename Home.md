@@ -14,8 +14,11 @@ Unfortunately, a broken OS component was pushed to the Box at the end of Septemb
 1. Type `sudo apt update && sudo apt dist-upgrade` and press "Enter"
 1. Press the "y" key to accept the proposed changes
 1. Type `sudo snap refresh ubuntu-core` and press "Enter"
+1. Type `sudo snap refresh` and press "Enter"
 
 *Note: You will be asked for a password. Type in the password you used for step 1*
+
+*Note2: It's important to refresh all snaps after you're updated ubuntu-core*
 
 ## Users
 
